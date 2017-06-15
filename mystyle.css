@@ -1,11 +1,13 @@
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 72px;
     font-style:normal;
+    color: rgb(197, 229, 228, 0.8)
 }
 
 ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-style:italic;
+    color: rgb(197, 229, 228, 0.8)
 }
