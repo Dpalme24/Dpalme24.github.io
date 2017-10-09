@@ -32,22 +32,10 @@ function VectorCalc() {
    theta = 1/theta;
   
    //Confirm Result
-  if(x>=0 && y>=0){
-    confirm("The Final Force = " + Fr);
-    confirm("The Angle is " + theta);
-  }
-  if(x<=0 && y>=0){
-    confirm("The Final Force = " + Fr);
-    confirm("The Angle is " + theta+180);
-  }
-  if(x>=0 && y<=0){
-    confirm("The Final Force = " + Fr);
-    confirm("The Angle is " + theta+360);
-  }
-  if(x<=0 && y<=0){
-    confirm("The Final Force = " + Fr);
-    confirm("The Angle is " + theta+270);
-  }  
+  confirm("Final Force: " + Fr);
+  confirm("Final Angle: " + theta);
+  confirm("X: " + x)
+  confirm("Y: " + y)
 }
 </script>
 </body>
