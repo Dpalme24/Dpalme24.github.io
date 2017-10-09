@@ -19,6 +19,7 @@ function VectorCalc() {
   for(i=0; i<count; i++){
     var force = prompt("Vector Force");
     var angle = prompt("Vector Angle");
+     angle = (180/Math.PI)*angle;
     x += force * Math.cos(angle);
     y += force * Math.sin(angle);
   }
@@ -26,6 +27,7 @@ function VectorCalc() {
    //Establish Final Stuff
   Fr = Math.sqrt(y^2+x^2);
   theta = Math.tan(y/x);
+   theta = 1/theta;
   
    //Confirm Result
   if(x>=0 && y>=0){
