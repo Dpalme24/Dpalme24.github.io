@@ -21,15 +21,17 @@ function VectorCalc() {
   for(i=0; i<count; i++){
     force = prompt("Vector Force");
     angle = prompt("Vector Angle");
-    angle = (180/Math.PI)*angle;
+    angle = (Math.PI/180)*angle;
     confirm("Angle " + angle);
     angle = Math.cos(angle);
+    confirm("Angle Cos " + angle);
     x += force * angle;
     y += force * angle;
   }
   
    //Establish Final Stuff
-  Fr = Math.sqrt(y^2+x^2);
+  Fr = y^2+x^2
+  Fr = Math.sqrt(Fr);
   theta = Math.tan(y/x);
    theta = 1/theta;
   
