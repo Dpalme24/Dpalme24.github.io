@@ -15,11 +15,13 @@ function VectorCalc() {
   var y;
   var Fr;
   var theta;
+  var force;
+  var angle;
   
   for(i=0; i<count; i++){
-    var force = prompt("Vector Force");
-    var angle = prompt("Vector Angle");
-     angle = (180/Math.PI)*angle;
+    force = prompt("Vector Force");
+    angle = prompt("Vector Angle");
+    angle = (180/Math.PI)*angle;
     x += force * Math.cos(angle);
     y += force * Math.sin(angle);
   }
