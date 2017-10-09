@@ -22,8 +22,10 @@ function VectorCalc() {
     force = prompt("Vector Force");
     angle = prompt("Vector Angle");
     angle = (180/Math.PI)*angle;
-    x += force * Math.cos(angle);
-    y += force * Math.sin(angle);
+    confirm("Angle "angle);
+    angle = Math.cos(angle);
+    x += force * angle;
+    y += force * angle;
   }
   
    //Establish Final Stuff
