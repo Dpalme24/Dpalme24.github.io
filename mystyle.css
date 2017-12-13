@@ -36,3 +36,14 @@ a {
     font-size: 72px;
     color: #a9e8de;
 }
+
+button {
+    background-color: #a9e8de
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
