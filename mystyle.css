@@ -4,8 +4,14 @@ font-family: Nexa;
 src: url(NexaLight.ttf);
 }
 
+@font-face
+{
+font-family: NexaBold;
+src: url(NexaBold.ttf);
+}
+
 h1 {
-    font-family: Nexa;
+    font-family: NexaBold;
     font-size: 72px;
     color: rgb(197, 229, 228, 0.8);
 }
