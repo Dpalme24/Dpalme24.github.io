@@ -5,14 +5,16 @@
 <link rel="SHORTCUT ICON" HREF="Dico.png"> 
 </head>
 <body>
-   
+   Mass 1 (kg): <input type="number" name="mass1">
+   Mass 2 (kg): <input type="number" name="mass2">
+   Distance (m): <input type="number" name="dis">
    <br><button onclick="PokemonGoToThePolls()">Calculate</button><br>
   <h3><br><a href="index.html">Go Back </a><br></h3>
 <script>
   function PokemonGoToThePolls() {
-var m1=prompt("Mass 1 (in kg)");
-var m2=prompt("Mass 2 (in kg)");
-var d =prompt("Distance in meters");
+var m1=document.getElementById("mass1");
+var m2=document.getElementById("mass2");
+var d =document.getElementById("dis");
 var d2= d*d;
 var g = 6.67e-11;
 var s1 =m1+m2;
