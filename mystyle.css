@@ -38,10 +38,11 @@ a {
 }
 
 button {
-    background-color: #a9e8de
-    border: none;
-    color: #a9e8de;
+    background-color: #a9e8de;
+    border: #000000;
+    color: #000000;
     padding: 15px 32px;
+    font-family: Nexa;
     text-align: center;
     text-decoration: none;
     display: inline-block;
