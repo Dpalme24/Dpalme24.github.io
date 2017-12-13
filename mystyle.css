@@ -11,7 +11,11 @@ src: url(NexaBold.ttf);
 }
 
 body{
-    background-color: #4C4C4C
+  background: #01346B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#01346B, #41C6FE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#01346B, #41C6FE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#01346B, #41C6FE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#01346B, #41C6FE); /* Standard syntax */
 }
 
 h1 {
@@ -19,7 +23,6 @@ h1 {
     font-size: 124px;
     text-align: center;
     color: #5189ba;
-    background-color: #3d3d3d
 }
 
 li {
