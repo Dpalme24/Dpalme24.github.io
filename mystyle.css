@@ -26,6 +26,15 @@ h1 {
     font-variant-caps: titling-caps;
 }
 
+
+h3 {
+    font-family: NexaBold;
+    font-size: 72px;
+    text-align: center;
+    color: #91004A;
+    font-variant-caps: titling-caps;
+}
+
 li {
     font-family: Nexa;
     font-size: 72px;
