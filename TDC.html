@@ -14,7 +14,7 @@
     <br><button onclick="Reset()">Reset</button><br>
     <h3><a href="index.html">Go Back </a><br></h3>
 <script>
-var c = 9e10;
+var c = 8.9875518e16;
 
 function GetRelative(){
 var speed =document.getElementById("spd").value;
@@ -23,19 +23,16 @@ var speed2 = speed*speed;
 var GRstep1 = speed2/c;
 var GRstep2 = 1 - GRstep1;
 var GRstep3 = Math.sqrt(GRstep2);
-var GRR = (tfr/GRstep3)-1;
+var GRR = (tfr/GRstep3);
 document.getElementById("rt").value =GRR;
 }
 
 function GetSpeed(){
 var tfr = document.getElementById("tfr").value;
 var GSRelative = document.getElementById("rt").value;
-var tfr2 = tfr*tfr;
-var GSR2 = GSRelative*GSRelative;
-var GSstep1 = tfr2/GSR2;
-var GSstep2 = (GSstep1*c);
-var GSstep3 = GSstep2 +1;
-var GSR = Math.sqrt(GSstep3);
+var S1= tfr*c;
+var S2= rt/S1;
+var GSR = S2-1;
 document.getElementById("spd").value = GSR;
 }
 
