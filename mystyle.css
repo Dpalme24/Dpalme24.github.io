@@ -1,19 +1,19 @@
 @font-face
 {
 font-family: Nexa;
-src: url('dpalme24.github.io/Nexa Light.ttf'),
+src: url(NexaLight.ttf);
 }
 
 h1 {
     font-family: Nexa;
     font-size: 72px;
     font-style:bold;
-    color: rgb(197, 229, 228, 0.8)
+    color: rgb(197, 229, 228, 0.8);
 }
 
 ul {
     font-family: Nexa;
     font-size: 48px;
     font-style:normal;
-    color: rgb(197, 229, 228, 0.8)
+    color: rgb(197, 229, 228, 0.8);
 }
