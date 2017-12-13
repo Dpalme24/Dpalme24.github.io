@@ -31,7 +31,7 @@ function GetSpeed(){
 var tfr = document.getElementById("tfr").value;
 var GSRelative = document.getElementById("rt").value;
 var S1= tfr*c;
-var S2= rt/S1;
+var S2= S1/GSRelative;
 var GSR = S2-1;
 document.getElementById("spd").value = GSR;
 }
