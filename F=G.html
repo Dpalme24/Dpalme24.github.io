@@ -5,12 +5,12 @@
 <link rel="SHORTCUT ICON" HREF="Dico.png"> 
 </head>
 <body>
-   <h3>Mass 1 (kg):  <input id="mss1"  type="number" name="mass1"><br/>
-   Mass 2 (kg):      <input id="mss2"  type="number" name="mass2"><br/>
-   Distance (m):     <input id="ds"    type="number" name="dis"><br/>
-   Force (N):        <input id="for"   type="number" name="force"><br/></h1>
+   <h3>Mass 1 (kg):  <input id="mss1"  type="number" name="mass1" step="any"><br/>
+   Mass 2 (kg):      <input id="mss2"  type="number" name="mass2" step="any"><br/>
+   Distance (m):     <input id="ds"    type="number" name="dis"   step="any"><br/>
+   Force (N):        <input id="for"   type="number" name="force" step="any"><br/></h1>
    
-   <button onclick="PokemonGoToThePolls()">Calculate</button><br/>
+   <button onclick="PokemonGoToThePolls()">Calculate</button> <button onclick="Reset()">Reset</button><br/>
    <a href="index.html">Go Back </a><br/></h3>
 <script>
   function PokemonGoToThePolls() {
@@ -23,6 +23,12 @@
       var s2 = s1/d2;
       var F = s2*g;
       document.getElementById("for").value = F;
+  }
+   
+  function Reset() {
+      document.getElementById("mss1").value = 0;
+      document.getElementById("mss2").value = 0;
+      document.getElementById("ds").value = 0;
   }
 </script>
 </body>
