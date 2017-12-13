@@ -23,6 +23,7 @@ h1 {
     font-size: 124px;
     text-align: center;
     color: #91004A;
+    font-variant-caps: titling-caps;
 }
 
 li {
@@ -41,10 +42,10 @@ button {
     background-color: #ffffff;
     border: #000000;
     color: #000000;
-    padding: 15px 32px;
+    padding: 20px 40px;
     font-family: Nexa;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 48px;
 }
