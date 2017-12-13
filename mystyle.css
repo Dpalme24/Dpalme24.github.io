@@ -58,3 +58,15 @@ button {
     display: inline-block;
     font-size: 48px;
 }
+
+input[type=number] { 
+    background-color: #ffffff;
+    border: #000000;
+    color: #000000;
+    padding: 20px 40px;
+    font-family: Nexa;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+}
