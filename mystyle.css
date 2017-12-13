@@ -13,11 +13,11 @@ src: url(NexaBold.ttf);
 h1 {
     font-family: NexaBold;
     font-size: 124px;
-    color: rgb(197, 229, 228, 0.8);
+    color: #99CCFF;
 }
 
 li {
     font-family: Nexa;
     font-size: 72px;
-    color: rgb(197, 229, 228, 0.8);
+    color: #C5E5E4;
 }
