@@ -10,6 +10,10 @@ font-family: NexaBold;
 src: url(NexaBold.ttf);
 }
 
+body{
+    background-color=#6d6d6d
+}
+
 h1 {
     font-family: NexaBold;
     font-size: 124px;
