@@ -13,11 +13,17 @@ src: url(NexaBold.ttf);
 h1 {
     font-family: NexaBold;
     font-size: 124px;
-    color: #99CCFF;
+    color: #FF0FFF;
 }
 
 li {
     font-family: Nexa;
     font-size: 72px;
-    color: #C5E5E4;
+    color: #FFF0FF;
+}
+
+a {
+    font-family: Nexa;
+    font-size: 72px;
+    color: #FFF0FF;
 }
