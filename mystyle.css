@@ -11,23 +11,25 @@ src: url(NexaBold.ttf);
 }
 
 body{
-    background-color=#6d6d6d
+    background-color: #4C4C4C
 }
 
 h1 {
     font-family: NexaBold;
     font-size: 124px;
-    color: #FF0FFF;
+    text-align: center;
+    color: #5189ba;
+    background-color: #3d3d3d
 }
 
 li {
     font-family: Nexa;
     font-size: 72px;
-    color: #FFF0FF;
+    color: #a9e8de;
 }
 
 a {
     font-family: Nexa;
     font-size: 72px;
-    color: #FFF0FF;
+    color: #a9e8de;
 }
