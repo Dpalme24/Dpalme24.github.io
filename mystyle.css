@@ -1,12 +1,18 @@
+@font-face
+{
+font-family: Nexa;
+src: url('Nexa Light.ttf'),
+}
+
 h1 {
-    font-family: 'Nexa Bold';
+    font-family: 'Nexa';
     font-size: 72px;
-    font-style:normal;
+    font-style:bold;
     color: rgb(197, 229, 228, 0.8)
 }
 
 ul {
-    font-family: 'Nexa Light';
+    font-family: 'Nexa';
     font-size: 48px;
     font-style:normal;
     color: rgb(197, 229, 228, 0.8)
