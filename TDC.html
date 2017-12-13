@@ -23,8 +23,8 @@ var speed2 = speed*speed;
 var GRstep1 = speed2/c;
 var GRstep2 = 1 - GRstep1;
 var GRstep3 = Math.sqrt(GRstep2);
-var GRR = (tffr/GRstep3)-1;
-ocument.getElementById("rt").value =GRR;
+var GRR = (tfr/GRstep3)-1;
+document.getElementById("rt").value =GRR;
 }
 
 function GetSpeed(){
@@ -36,18 +36,18 @@ var GSstep1 = tfr2/GSR2;
 var GSstep2 = (GSstep1*c);
 var GSstep3 = GSstep2 +1;
 var GSR = Math.sqrt(GSstep3);
-ocument.getElementById("spd").value = GSR;
+document.getElementById("spd").value = GSR;
 }
 
 function GetFrame(){
 var speed = document.getElementById("spd").value;
-speed2 = speed*speed;
+var speed2 = speed*speed;
 var GFRelative = document.getElementById("rt").value;
 var GFstep1 = speed2/c;
 var GFstep2 = 1-GFstep1;
 var GFstep3 = Math.sqrt(GFstep2);
 var GFR = GFstep3*GFRelative;
-ocument.getElementById("tfr").value =GFR;
+document.getElementById("tfr").value =GFR;
 }
   
 function Reset() {
