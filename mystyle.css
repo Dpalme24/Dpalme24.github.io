@@ -11,6 +11,9 @@ src: url(NexaBold.ttf);
 }
 
 body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: #4C4C4C; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#01346B, #41C6FE); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#01346B, #41C6FE); /* For Opera 11.1 to 12.0 */
