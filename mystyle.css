@@ -8,7 +8,7 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #0c0c04;
+  background: #1d1b21;
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
     font-weight: bold;
     font-size: 124px;
     text-align: center;
-    color: #ebebe3;
-    background: #c35424;
+    color: #cdc6c7;
+    background: #1d1b21;
     font-variant-caps: titling-caps;
 }
 
@@ -27,7 +27,7 @@ h3 {
     font-weight: bold;
     font-size: 72px;
     text-align: center;
-    color: #ebebe3;
+    color: #cdc6c7;
     font-variant-caps: titling-caps;
 }
 
@@ -35,21 +35,21 @@ li {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #ebebe3;
+    color: #cdc6c7;
 }
 
 a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #ebebe3;
-    background: #c35424;
+    color: #cdc6c7;
+    background: #c4424c;
 }
 
 button {
-    background-color: #ebebe3;
-    border: #c35424;
-    color: #0c0c04;
+    background-color: #1d1b21;
+    border: #c4424c;
+    color: #cdc6c7;
     padding: 20px 40px;
     font-family: Helvetica;
     font-weight: bold;
@@ -60,9 +60,9 @@ button {
 }
 
 input[type=number] { 
-    background-color: #ebebe3;
-    border: #c35424;
-    color: #0c0c04;
+    background-color: #1d1b21;
+    border: #c4424c;
+    color: #cdc6c7;
     font-family: Helvetica;
     font-weight: bold;
     text-align: left;
