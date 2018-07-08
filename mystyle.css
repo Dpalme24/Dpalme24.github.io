@@ -1,7 +1,7 @@
 @font-face
 {
-font-family: Nexa;
-src: url(NexaLight.ttf);
+font-family: Helvetica;
+src: url(Helvetica-Regular.tff);
 }
 
 @font-face
@@ -22,7 +22,8 @@ body{
 }
 
 h1 {
-    font-family: NexaBold;
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 124px;
     text-align: center;
     color: #91004A;
@@ -31,7 +32,8 @@ h1 {
 
 
 h3 {
-    font-family: NexaBold;
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 72px;
     text-align: center;
     color: #a9e8de;
@@ -39,13 +41,15 @@ h3 {
 }
 
 li {
-    font-family: Nexa;
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 72px;
     color: #a9e8de;
 }
 
 a {
-    font-family: Nexa;
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 72px;
     color: #a9e8de;
 }
@@ -55,69 +59,11 @@ button {
     border: #000000;
     color: #000000;
     padding: 20px 40px;
-    font-family: Nexa;
+    font-family: Helvetica;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 48px;
-}
-
-@font-face
-{
-font-family: Nexa;
-src: url(NexaLight.ttf);
-}
-
-@font-face
-{
-font-family: NexaBold;
-src: url(NexaBold.ttf);
-}
-
-body{
-  background: #4C4C4C; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#01346B, #41C6FE); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#01346B, #41C6FE); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#01346B, #41C6FE); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#01346B, #41C6FE); /* Standard syntax */
-}
-
-h1 {
-    font-family: NexaBold;
-    font-size: 124px;
-    text-align: center;
-    color: #91004A;
-    font-variant-caps: titling-caps;
-}
-
-
-h3 {
-    font-family: NexaBold;
-    font-size: 72px;
-    text-align: center;
-    color: #a9e8de;
-    font-variant-caps: titling-caps;
-}
-
-li {
-    font-family: Nexa;
-    font-size: 72px;
-    color: #a9e8de;
-}
-
-a {
-    font-family: Nexa;
-    font-size: 72px;
-    color: #a9e8de;
-}
-
-button {
-    background-color: #ffffff;
-    border: #000000;
-    color: #000000;
-    padding: 20px 40px;
-    font-family: Nexa;
-    text-align: center;
     font-size: 48px;
 }
 
@@ -130,4 +76,3 @@ input[type=number] {
     font-size: 48px;
     width: 250px
 }
-
