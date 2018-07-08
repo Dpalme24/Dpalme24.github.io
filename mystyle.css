@@ -45,9 +45,9 @@ a {
 }
 
 button {
-    background-color: #0c0c04;
+    background-color: #ebebe3;
     border: #c35424;
-    color: #ebebe3;
+    color: #0c0c04;
     padding: 20px 40px;
     font-family: Helvetica;
     font-weight: bold;
@@ -58,10 +58,10 @@ button {
 }
 
 input[type=number] { 
-    background-color: #0c0c04;
+    background-color: #ebebe3;
     border: #c35424;
-    color: #ebebe3;
-    font-family: Nexa;
+    color: #0c0c04;
+    font-family: Helvetica;
     text-align: left;
     font-size: 48px;
     width: 250px
