@@ -46,6 +46,10 @@ a {
     background: #c4424c;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 button {
     background-color: #1d1b21;
     border: #c4424c;
