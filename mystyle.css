@@ -14,11 +14,7 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #4C4C4C; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#01346B, #41C6FE); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#01346B, #41C6FE); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#01346B, #41C6FE); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#01346B, #41C6FE); /* Standard syntax */
+  background: #0c0c04;
 }
 
 h1 {
@@ -26,7 +22,7 @@ h1 {
     font-weight: bold;
     font-size: 124px;
     text-align: center;
-    color: #91004A;
+    color: #ebebe3;
     font-variant-caps: titling-caps;
 }
 
@@ -36,7 +32,7 @@ h3 {
     font-weight: bold;
     font-size: 72px;
     text-align: center;
-    color: #a9e8de;
+    color: #ebebe3;
     font-variant-caps: titling-caps;
 }
 
@@ -44,20 +40,20 @@ li {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #a9e8de;
+    color: #ebebe3;
 }
 
 a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #a9e8de;
+    color: #ebebe3;
 }
 
 button {
-    background-color: #ffffff;
-    border: #000000;
-    color: #000000;
+    background-color: #0c0c04;
+    border: #c35424;
+    color: #ebebe3;
     padding: 20px 40px;
     font-family: Helvetica;
     font-weight: bold;
@@ -68,9 +64,9 @@ button {
 }
 
 input[type=number] { 
-    background-color: #ffffff;
-    border: #000000;
-    color: #000000;
+    background-color: #0c0c04;
+    border: #c35424;
+    color: #ebebe3;
     font-family: Nexa;
     text-align: left;
     font-size: 48px;
