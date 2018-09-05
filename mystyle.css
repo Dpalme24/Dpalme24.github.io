@@ -7,7 +7,7 @@ src: url(NexaBold.ttf);
 body{
   margin: 0;
   padding: 0;
-  background: #8CCAD4;
+  background: #FFEFBF;
 }
 
 h1 {
@@ -15,8 +15,7 @@ h1 {
     font-weight: bold;
     font-size: 124px;
     text-align: center;
-    color: #8CCAD4;
-    background: #F1E0DE;
+    color: #092C74;
     font-variant-caps: titling-caps;
 }
 
@@ -26,7 +25,7 @@ h3 {
     font-weight: bold;
     font-size: 72px;
     text-align: center;
-    color: #8CCAD4;
+    color: #092C74;
     font-variant-caps: titling-caps;
 }
 
@@ -34,15 +33,14 @@ li {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #8CCAD4;
+    color: #FFEFBF;
 }
 
 a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-  color: #8CCAD4;
-    background: #F1E0DE;
+    color: #F2C004;
 }
 
 a:link, a:visited {
@@ -50,8 +48,8 @@ a:link, a:visited {
 }
 
 button {
-    color: #8CCAD4;
-    background: #F1E0DE;
+    color: #F2C004;
+    background: #FFEFBF;
     padding: 20px 40px;
     font-family: Helvetica;
     font-weight: bold;
@@ -62,8 +60,8 @@ button {
 }
 
 input[type=number] { 
-    color: #8CCAD4;
-    background: #F1E0DE;
+    color: #F2C004;
+    background: #FFEFBF;
     font-family: Helvetica;
     font-weight: bold;
     text-align: left;
