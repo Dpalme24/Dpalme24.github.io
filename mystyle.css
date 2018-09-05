@@ -8,7 +8,7 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #1d1b21;
+  background: #F6B5B9;
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
     font-weight: bold;
     font-size: 124px;
     text-align: center;
-    color: #cdc6c7;
-    background: #c4424c;
+    color: #FCD50B;
+    background: #6C7AB9;
     font-variant-caps: titling-caps;
 }
 
@@ -27,7 +27,7 @@ h3 {
     font-weight: bold;
     font-size: 72px;
     text-align: center;
-    color: #cdc6c7;
+    color: #FCD50B;
     font-variant-caps: titling-caps;
 }
 
@@ -35,15 +35,15 @@ li {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #cdc6c7;
+    color: #FCD50B;
 }
 
 a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #cdc6c7;
-    background: #c4424c;
+    color: #FCD50B;
+    background: #6C7AB9;
 }
 
 a:link, a:visited {
@@ -51,9 +51,9 @@ a:link, a:visited {
 }
 
 button {
-    background-color: #c4424c;
-    border: #c4424c;
-    color: #cdc6c7;
+    background-color: #6C7AB9;
+    border: #CE4E7F;
+    color: #FCD50B;
     padding: 20px 40px;
     font-family: Helvetica;
     font-weight: bold;
@@ -64,9 +64,9 @@ button {
 }
 
 input[type=number] { 
-    background-color: #c4424c;
-    border: #c4424c;
-    color: #cdc6c7;
+    background-color: #6C7AB9;
+    border: #CE4E7F;
+    color: #FCD50B;
     font-family: Helvetica;
     font-weight: bold;
     text-align: left;
