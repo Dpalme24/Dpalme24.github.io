@@ -7,7 +7,7 @@ src: url(NexaBold.ttf);
 body{
   margin: 0;
   padding: 0;
-  background: #FFEFBF;
+  background: #FFEFBE;
 }
 
 h1 {
@@ -72,84 +72,4 @@ input[type=number] {
 img {
     opacity: 0.1;
     filter: alpha(opacity=1);
-}
-
-@font-face
-{
-font-family: NexaBold;
-src: url(NexaBold.ttf);
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  background: #FFEFBF;
-}
-
-h1 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 124px;
-    text-align: center;
-    color: #092C74;
-    font-variant-caps: titling-caps;
-}
-
-
-h3 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 72px;
-    text-align: center;
-    color: #092C74;
-    font-variant-caps: titling-caps;
-}
-
-li {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 72px;
-    color: #FFEFBF;
-}
-
-a {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 72px;
-    color: #F2C004;
-}
-
-a:link, a:visited {
-    text-decoration: none;
-}
-
-button {
-    color: #F2C004;
-    background: #FFEFBF;
-    padding: 20px 40px;
-    font-family: Helvetica;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 48px;
-}
-
-input[type=number] { 
-    color: #F2C004;
-    background: #FFEFBF;
-    font-family: Helvetica;
-    font-weight: bold;
-    text-align: left;
-    font-size: 48px;
-    width: 250px
-}
-
-img {
-    opacity: 0.1;
-    filter: alpha(opacity=1);
-}
-
-svg {
-  fill:#092c74;
 }
