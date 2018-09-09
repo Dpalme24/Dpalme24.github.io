@@ -4,6 +4,12 @@ font-family: NexaBold;
 src: url(NexaBold.ttf);
 }
 
+@font-face
+{
+font-family: Nexa;
+src: url(NexaLight.ttf);
+}
+
 
 body{
   margin: 0;
@@ -41,7 +47,7 @@ a {
     font-family: Helvetica;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: -2px;
+    letter-spacing: -4.5px;
     font-size: 36px;
     color: #EBAC13;
 }
