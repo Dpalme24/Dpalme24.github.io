@@ -76,3 +76,10 @@ img {
     opacity: 0.3;
     filter: alpha(opacity=1);
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
