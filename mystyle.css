@@ -54,6 +54,7 @@ button {
     color: #ffffff;
     background: #ac8535;
     border:none;
+    border-radius: 2px;
     font-family: Helvetica;
     font-weight: bold;
     text-align: center;
@@ -61,12 +62,14 @@ button {
 }
 
 input[type=number] { 
-    color: #EBAC13;
-    background: #FFEFBF;
+    color: #ffffff;
+    background: #ac8535;
+    border:none;
+    border-radius: 2px;
     font-family: Helvetica;
     font-weight: bold;
-    text-align: left;
-    font-size: 48px;
+    text-align: center;
+    font-size: 36px;
     width: 250px
 }
 
