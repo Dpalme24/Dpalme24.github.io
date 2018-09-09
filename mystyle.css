@@ -14,26 +14,26 @@ body{
 h1 {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 124px;
+    font-size: 36px;
     text-align: center;
     color: #EBAC13;
-    font-variant-caps: titling-caps;
+    text-transform: uppercase;
 }
 
 
 h3 {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 36px;
     text-align: center;
     color: #EBAC13;
-    font-variant-caps: titling-caps;
+    text-transform: uppercase;
 }
 
 li {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 35px;
     color: #FFEFBF;
 }
 
@@ -54,7 +54,6 @@ button {
     color: #ffffff;
     background: #ac8535;
     border:none;
-    border-radius: 2px;
     font-family: Helvetica;
     font-weight: bold;
     text-align: center;
@@ -62,14 +61,12 @@ button {
 }
 
 input[type=number] { 
-    color: #ffffff;
-    background: #ac8535;
-    border:none;
-    border-radius: 2px;
+    color: #EBAC13;
+    background: #FFEFBF;
     font-family: Helvetica;
     font-weight: bold;
-    text-align: center;
-    font-size: 36px;
+    text-align: left;
+    font-size: 48px;
     width: 250px
 }
 
