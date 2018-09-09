@@ -15,7 +15,7 @@ h1 {
     font-weight: bold;
     font-size: 124px;
     text-align: center;
-    color: #092C74;
+    color: #EBAC13;
     font-variant-caps: titling-caps;
 }
 
@@ -25,7 +25,7 @@ h3 {
     font-weight: bold;
     font-size: 72px;
     text-align: center;
-    color: #092C74;
+    color: #EBAC13;
     font-variant-caps: titling-caps;
 }
 
@@ -40,7 +40,7 @@ a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 72px;
-    color: #F2C004;
+    color: #EBAC13;
 }
 
 a:link, a:visited {
@@ -48,7 +48,7 @@ a:link, a:visited {
 }
 
 button {
-    color: #F2C004;
+    color: #EBAC13;
     background: #FFEFBF;
     padding: 20px 40px;
     font-family: Helvetica;
@@ -60,7 +60,7 @@ button {
 }
 
 input[type=number] { 
-    color: #F2C004;
+    color: #EBAC13;
     background: #FFEFBF;
     font-family: Helvetica;
     font-weight: bold;
