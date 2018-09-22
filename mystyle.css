@@ -1,11 +1,5 @@
 @font-face
 {
-font-family: NexaBold;
-src: url(NexaBold.ttf);
-}
-
-@font-face
-{
 font-family: Nexa;
 src: url(NexaLight.ttf);
 }
@@ -14,42 +8,39 @@ src: url(NexaLight.ttf);
 body{
   margin: 0;
   padding: 0;
-  background: #FFEFBE;
+  background: navy;
+  color: #03c70e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+text{
+  color: #03c70e;
 }
 
 h1 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 36px;
-    text-align: center;
-    color: #EBAC13;
-    text-transform: uppercase;
+    font-weight:normal;
+    font-size: 14px;
 }
 
 
 h3 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 36px;
-    text-align: center;
-    color: #EBAC13;
-    text-transform: uppercase;
+    font-weight:normal;
+    font-size: 14px;
 }
 
 li {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 35px;
-    color: #FFEFBF;
+    color: #03c70e;
 }
 
 a {
-    font-family: Helvetica;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: -4.5px;
-    font-size: 36px;
-    color: #EBAC13;
+  background-color:black;
+  color: #03c70e;
+  font-size: 10px;
 }
 
 a:link, a:visited {
@@ -57,30 +48,24 @@ a:link, a:visited {
 }
 
 button {
-    color: #ffffff;
-    background: #ac8535;
+    color: #03c70e;
+    background: black;
     border:none;
-    font-family: Helvetica;
-    font-weight: bold;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 input[type=number] { 
-     color: #ffffff;
-    background: #ac8535;
+    color: #03c70e;
+    background: black;
     border:none;
-    border-radius: 2px;
-    font-family: Helvetica;
-    font-weight: bold;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     width: 80px;
 }
 
 img {
-    opacity: 0.3;
-    filter: alpha(opacity=1);
+    filter: invert(100%);
 }
 
 .center {
