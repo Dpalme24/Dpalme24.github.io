@@ -11,10 +11,10 @@
    <br><button onclick="VectorCalc()">Calculate</button><br>
   <h3><a href="index.html">Fuck, Go Back</a></h3>
 <script>
-var x;
-var y;
+	var x;
+    	var y;
 
-    function sumaAnaliticax(f, a){
+    	function sumaAnaliticax(f, a){
     		var cosine = Math.cos(a);
     		console.log("Angle Cos " + cosine);
     		return f * cosine;
@@ -36,8 +36,9 @@ var y;
 			angle = (Math.PI/180)*angle;
     			x += sumaAnaliticax(force, angle);
 			y += sumaAnaliticay(force, angle);
-		  
-  		 //Establish Final Stuff
+        	}
+          
+        	//Establish Final Stuff
   		var Fr = Math.sqrt(y^2+x^2);
   		var theta = Math.atan(y/x);
   
@@ -46,8 +47,7 @@ var y;
   		confirm("Final Angle: " + theta);
   		console.log("X: " + x);
   		console.log("Y: " + y);
-  	}
-}
+	}
 </script>
 </body>
 </HTML>
