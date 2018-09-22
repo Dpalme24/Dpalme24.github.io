@@ -11,39 +11,41 @@
    <br><button onclick="VectorCalc()">Calculate</button><br>
   <h3><a href="index.html">Fuck, Go Back</a></h3>
 <script>
-function VectorCalc() {
-  var i;
-  var num = prompt("Number of vectors");
-  var count = parseInt(num);
-  var x;
-  var y;
-  var Fr;
-  var theta;
-  var force;
-  var angle;
+	function sumaAnaliticax(f, a){
+    		cosine = Math.cos(angle);
+    		console.log("Angle Cos " + cosine);
+    		return force * cosine;
+	}
+	
+
+	function sumaAnaliticay(f, a){
+		sine = Math.sin(angle);
+		console.log("Angle Sin " + sine);
+		return force * sine;
+	}
+		
+	function VectorCalc() {
+		var num = parseInt(prompt("Number of vectors"));
+  		var x;
+  		var y;
   
-  for(i=0; i<count; i++){
-    force = prompt("Vector Force");
-    angle = prompt("Vector Angle");
-    angle = (Math.PI/180)*angle;
-    confirm("Angle " + angle);
-    angle = Math.cos(angle);
-    confirm("Angle Cos " + angle);
-    x += force * angle;
-    y += force * angle;
-  }
+  		for(var i=0; i<num; i++){
+			var force = prompt("Vector Force");
+    			var angle = prompt("Vector Angle");
+			angle = (Math.PI/180)*angle;
+    			x += sumaAnaliticax(force, angle);
+			y += sumaAnaliticay(force, angle);
+		  
+  		 //Establish Final Stuff
+  		var Fr = Math.sqrt(y^2+x^2);
+  		var theta = Math.atan(y/x);
   
-   //Establish Final Stuff
-  Fr = y^2+x^2
-  Fr = Math.sqrt(Fr);
-  theta = Math.tan(y/x);
-   theta = 1/theta;
-  
-   //Confirm Result
-  confirm("Final Force: " + Fr);
-  confirm("Final Angle: " + theta);
-  confirm("X: " + x)
-  confirm("Y: " + y)
+	   	//Confirm Result
+  		confirm("Final Force: " + Fr);
+  		confirm("Final Angle: " + theta);
+  		console.log("X: " + x);
+  		console.log("Y: " + y);
+  	}
 }
 </script>
 </body>
