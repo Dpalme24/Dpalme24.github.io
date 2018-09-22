@@ -11,7 +11,10 @@
    <br><button onclick="VectorCalc()">Calculate</button><br>
   <h3><a href="index.html">Fuck, Go Back</a></h3>
 <script>
-	function sumaAnaliticax(f, a){
+var x;
+var y;
+
+    function sumaAnaliticax(f, a){
     		var cosine = Math.cos(a);
     		console.log("Angle Cos " + cosine);
     		return f * cosine;
@@ -26,8 +29,6 @@
 		
 	function VectorCalc() {
 		var num = parseInt(prompt("Number of vectors"));
-  		var x;
-  		var y;
   
   		for(var i=0; i<num; i++){
 			var force = prompt("Vector Force");
