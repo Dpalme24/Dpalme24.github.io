@@ -1,0 +1,35 @@
+<HTML>
+<head>
+<title>Cillisi</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+<link rel="SHORTCUT ICON" HREF="Dico.png"> 
+</head>
+<body>
+   <br>
+   <h1>DPALME</h1>
+   <br>
+	
+   <h3>Original:    <input id="orig"  type="text" name="original" step="any"><br/>
+   Iriginil:        <input id="irig"  type="text" name="iriginal" step="any"><br/>
+   
+   <button onclick="Calculate()">Convertir</button> <button onclick="Reset()">Resetear</button><br>
+  <h3><a href="index.html">Go Back </a></h3>
+<script>
+   function Calculate() {
+var original = document.getElementById("orig").value;
+
+var nuevo = nuevo.replace("a", "i");
+nuevo = nuevo.replace("e", "i");
+nuevo = original.replace("o", "i");
+nuevo = nuevo.replace("u", "i");
+
+         document.getElementById("irig").value = nuevo;
+   }
+   
+         function Reset() {
+         document.getElementById("orig").value = "";
+         document.getElementById("irig").value = "";
+      }
+   </script>
+</body>
+</HTML>
