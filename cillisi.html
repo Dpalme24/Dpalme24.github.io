@@ -1,35 +1,32 @@
-<HTML>
-<head>
+<html><head><style id="stndz-style"></style>
 <title>Cillisi</title>
 <link href="mystyle.css" rel="stylesheet" type="text/css">
-<link rel="SHORTCUT ICON" HREF="Dico.png"> 
+<link rel="SHORTCUT ICON" href="Dico.png"> 
 </head>
 <body>
    <br>
    <h1>DPALME</h1>
    <br>
 	
-   <h3>Original:    <input id="orig"  type="text" name="original" step="any"><br/>
-   Iriginil:        <input id="irig"  type="text" name="iriginal" step="any"><br/>
+   <h3>Original: <input id="orig" type="text"><br>Iriginil: <input id="resultado" type="text"><br>
    
    <button onclick="Calculate()">Convertir</button> <button onclick="Reset()">Resetear</button><br>
-  <h3><a href="index.html">Go Back </a></h3>
-<script>
-   function Calculate() {
-var original = document.getElementById("orig").value;
-
-var nuevo = nuevo.replace("a", "i");
-nuevo = nuevo.replace("e", "i");
-nuevo = original.replace("o", "i");
-nuevo = nuevo.replace("u", "i");
-
-         document.getElementById("irig").value = nuevo;
+  </h3><h3><a href="index.html">Go Back </a></h3>
+<script>   function Calculate() {
+var str = document.getElementById("orig").innerHTML;
+ 
+    var res = str.replace(/a/g, "i");
+    res = res.replace(/e/g, "i");
+    res = res.replace(/o/g, "i");
+    res = res.replace(/u/g, "i");
+    document.getElementById("orig").innerHTML = res;
    }
    
          function Reset() {
-         document.getElementById("orig").value = "";
-         document.getElementById("irig").value = "";
+         document.getElementById("orig").innerHTML = "";
+         document.getElementById("resultado").innerHTML = "";
       }
    </script>
-</body>
-</HTML>
+
+
+</body></html>
