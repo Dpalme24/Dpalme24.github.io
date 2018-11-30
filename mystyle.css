@@ -1,55 +1,55 @@
-@font-face
-{
-font-family: Nexa;
-src: url(NexaLight.ttf);
-}
-
-
 body{
-  margin: 0;
+  margin: 3%;
   padding: 0;
-  background: navy;
-  color: #03c70e;
+  background: #f0f0f0;
+  color: #3030f0;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  line-height: 18px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  text-align: center;
+  letter-spacing: 1px;
 }
 
-text{
-  color: #03c70e;
+p{
+  color: #303030;
+  font-size: 18px;
 }
 
 h1 {
     font-weight:normal;
-    font-size: 14px;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
 }
-
 
 h3 {
     font-weight:normal;
-    font-size: 14px;
+    font-size: 48px;
 }
 
 li {
-    color: #03c70e;
+    color: #3030f0;
 }
 
 a {
-  background-color:black;
-  color: #03c70e;
-  font-size: 10px;
+  color: #3030f0;
 }
 
 a:link, a:visited {
     text-decoration: none;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+text{
+  color: #3030f0;
+}
+
 button {
-    color: #03c70e;
-    background: black;
+    color: #3030f0;
+    background: #f0f0f0;
     border:none;
     text-align: center;
     font-size: 14px;
@@ -61,8 +61,8 @@ button {
 }
 
 input[type=number] { 
-    color: #03c70e;
-    background: navy;
+    color: #3030f0;
+    background: #f0f0f0;
     border:none;
     text-align: center;
     font-size: 14px;
@@ -71,13 +71,6 @@ input[type=number] {
     letter-spacing: 3px;
     text-transform: uppercase;
     text-align: center;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 svg{
