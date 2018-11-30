@@ -50,8 +50,6 @@ text{
 button {
     color: #3030f0;
     background: #f0f0f0;
-    border:none;
-    text-align: center;
     font-size: 14px;
     width: auto;
     line-height: 18px;
@@ -71,6 +69,14 @@ input[type=number] {
     letter-spacing: 3px;
     text-transform: uppercase;
     text-align: center;
+}
+
+input[type=text] { 
+    color: #3030f0;
+    background: #f0f0f0;
+    font-size: 14px;
+    width: auto;
+    line-height: 18px;
 }
 
 svg{
