@@ -1,9 +1,15 @@
+@font-face { 
+  font-family: "Didhot-v19"; 
+  src: url("https://dn.ht/didhot/Didhot-Regular.woff2?v=19") 
+  format("woff2"), url("https://dn.ht/didhot/Didhot-Regular.woff2?v=19") format("woff"); 
+}
+
 body{
   margin: 3%;
   padding: 0;
   background: #f0f0f0;
   color: #3030f0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Didhot-v19, sans-serif;
   letter-spacing: 1px;
 }
 
