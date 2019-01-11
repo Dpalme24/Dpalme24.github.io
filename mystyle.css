@@ -10,6 +10,7 @@ body{
   color: #303030;
   font-family: Didhot, sans-serif;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 p{
@@ -52,22 +53,21 @@ text{
 }
 
 button {
-    color: #3030f0;
     background: #f0f0f0;
-    font-size: 18px;
+    font-size: auto;
     width: auto;
+    font-family: Didhot;
     line-height: 18px;
     letter-spacing: 3px;
-    text-transform: uppercase;
     text-align: center;
 }
 
 input[type=number] { 
-    color: #3030f0;
+    font-family: Didhot;
     background: #f0f0f0;
     border:none;
     text-align: center;
-    font-size: 14px;
+    font-size: auto;
     width: auto;
     line-height: 18px;
     letter-spacing: 3px;
@@ -75,14 +75,14 @@ input[type=number] {
     text-align: center;
 }
 
-input[type=text] { 
-    color: #3030f0;
+input[type=text] {
+    font-family: Didhot;
     background: #f0f0f0;
-    font-size: 14px;
+    font-size: auto;
     width: auto;
     line-height: 18px;
 }
 
 svg{
-  color:navy;
+  color:#303030;
 }
