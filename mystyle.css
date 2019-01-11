@@ -6,15 +6,15 @@
 body{
   margin: 3%;
   padding: 0;
-  background: #f0f0f0;
-  color: #303030;
+  background: #303030;
+  color: #f0f0f0;
   font-family: Didhot, sans-serif;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 p{
   font-size: 30px;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -28,16 +28,14 @@ h3 {
     font-size: 48px;
 }
 
-li {
-    color: #3030f0;
-}
 
 a {
-  color: #303030;
+  color: #f0f0f0;
 }
 
 a:link, a:visited {
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .center {
@@ -50,24 +48,13 @@ a:link, a:visited {
 
 text{
   color: #3030f0;
+  text-transform: uppercase;
 }
 
 button {
+    color: #3030f0;
     background: #f0f0f0;
-    font-size: auto;
-    width: auto;
-    font-family: Didhot;
-    line-height: 18px;
-    letter-spacing: 3px;
-    text-align: center;
-}
-
-input[type=number] { 
-    font-family: Didhot;
-    background: #f0f0f0;
-    border:none;
-    text-align: center;
-    font-size: auto;
+    font-size: 18px;
     width: auto;
     line-height: 18px;
     letter-spacing: 3px;
@@ -75,14 +62,27 @@ input[type=number] {
     text-align: center;
 }
 
-input[type=text] {
-    font-family: Didhot;
+input[type=number] { 
+    color: #3030f0;
     background: #f0f0f0;
-    font-size: auto;
+    border:none;
+    text-align: center;
+    font-size: 14px;
+    width: auto;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input[type=text] { 
+    color: #3030f0;
+    background: #f0f0f0;
+    font-size: 14px;
     width: auto;
     line-height: 18px;
 }
 
 svg{
-  color:#303030;
+  color:navy;
 }
