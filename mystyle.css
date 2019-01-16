@@ -47,6 +47,7 @@ h1 {
     display: inline-block;
     position: absolute;
     right: auto;
+    top: 50;
     left: 300;
     z-index: 1;
 }
@@ -79,7 +80,7 @@ a:link, a:visited {
     text-align: center;
     width: 600;
     left: 150;
-    bottom: 85;
+    bottom: 45;
     padding: 80;
     border: var(--font-color);
     border-style: solid;
