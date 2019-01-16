@@ -4,8 +4,23 @@
 }
 
 @font-face {
-  font-family: "HelveticaR";
-  src: url(Helvetica-Regular.tff) format("tff");
+  font-family: "Helvetica-Regular";
+  src: url(Helvetica-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url(HelveticaLt.ttf);
+}
+
+@font-face {
+  font-family: "Bunya-Light";
+  src: url(Bunya-Light_PERSONAL.ttf);
+}
+
+@font-face {
+  font-family: "Bunya-Bold";
+  src: url(Bunya-Bold_PERSONAL.ttf);
 }
 
 :root {
@@ -20,7 +35,7 @@ body{
     padding: 0;
     background: var(--background-color);
     color: var(--font-color);
-    font-family: HelveticaR, sans-seriff;
+    font-family: Helvetica-Regular;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -30,9 +45,7 @@ p{
     text-transform: capitalize;
     background-color: var(--font-background);
     border: var(--font-color);
-    border-width: thick;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 h1 {
@@ -43,14 +56,10 @@ h1 {
     border: var(--font-color);
     border-style: solid;
     border-width: 15;
-    width: 460;
+    width: 45%;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-}
-
-tb {
-    text-align: center;
 }
 
 h3 {
@@ -61,13 +70,9 @@ h3 {
 
 a{
     color: var(--font-color);
-    text-decoration: none;
-    font-weight: 750;
-}
-
-a:link, a:visited {
-    text-decoration: none;
     text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .center {
@@ -75,7 +80,7 @@ a:link, a:visited {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 600;
+    width: 80%;
     padding: 80;
     border: var(--font-color);
     border-style: solid;
