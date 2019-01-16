@@ -1,26 +1,42 @@
 @font-face { 
-  font-family: "Didhot"; 
-  src: url("Didhot-Regular.woff2") format("woff2");
+    font-family: "Didhot"; 
+    src: url("Didhot-Regular.woff2") format("woff2");
+}
+
+:root {
+    --font-color: #151515;
+    --background-color: #f6c802;
+    --font-background: #f0f0f0;
+    --accent-color: #f05b30;
 }
 
 body{
-  margin: 3%;
-  padding: 0;
-  background: #303030;
-  color: #f0f0f0;
-  font-family: Didhot, sans-serif;
-  letter-spacing: 1px;
+    margin: 3%;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--font-color);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 p{
-  font-size: 30px;
-  text-transform: capitalize;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: var(--font-background);
+    border: var(--font-color);
+    border-width: thick;
 }
 
 h1 {
     font-weight:normal;
     font-size: 100px;
     text-align: center;
+    background-color: var(--accent-color);
+    border: var(--font-color);
+    border-width: thick;
+    font-weight: bold;
+    width: 500;
 }
 
 h3 {
@@ -29,8 +45,9 @@ h3 {
 }
 
 
-a {
-  color: #f0f0f0;
+a{
+    color: var(--font-color);
+    text-decoration: none;
 }
 
 a:link, a:visited {
@@ -47,13 +64,13 @@ a:link, a:visited {
 }
 
 text{
-  color: #3030f0;
-  text-transform: uppercase;
+    color: var(--font-color);
+    text-transform: uppercase;
 }
 
 button {
-    color: #3030f0;
-    background: #f0f0f0;
+    color: var(--font-color);
+    background: var(--accent-color);
     font-size: 18px;
     width: auto;
     line-height: 18px;
@@ -63,9 +80,9 @@ button {
 }
 
 input[type=number] { 
-    color: #3030f0;
-    background: #f0f0f0;
-    border:none;
+    color: var(--font-color);
+    background: var(--accent-color);
+    border: thick;
     text-align: center;
     font-size: 14px;
     width: auto;
@@ -76,13 +93,9 @@ input[type=number] {
 }
 
 input[type=text] { 
-    color: #3030f0;
-    background: #f0f0f0;
+    color: var(--font-color);
+    background: var(--accent-color);
     font-size: 14px;
     width: auto;
     line-height: 18px;
-}
-
-svg{
-  color:navy;
 }
