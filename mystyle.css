@@ -35,9 +35,6 @@ body{
     padding: 0;
     background: var(--background-color);
     color: var(--font-color);
-    font-family: Helvetica-Regular;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
 p{
@@ -49,14 +46,18 @@ p{
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 90px;
+    font-family: Bunya-Light;
+    font-weight: 900;
+    font-size: 60;
     text-align: center;
+    letter-spacing: 4px;
+    line-height: 85px;
     background-color: var(--accent-color);
     border: var(--font-color);
     border-style: solid;
     border-width: 15;
     width: 45%;
+    height: 80px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -72,16 +73,17 @@ a{
     color: var(--font-color);
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bolder;
 }
 
 .center {
-    display: block;
+    font-family: Helvetica-Regular;
+    font-weight: bold;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 80%;
-    padding: 80;
+    padding: 30;
     border: var(--font-color);
     border-style: solid;
     border-width: 10;
