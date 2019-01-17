@@ -46,6 +46,8 @@ p{
     text-transform: capitalize;
     background-color: var(--font-background);
     border: var(--font-color);
+    border-width: 10px;
+    border-style: solid;
     margin: 0;
 }
 
@@ -88,9 +90,6 @@ a{
     text-align: center;
     width: 80%;
     padding: 30;
-    border: var(--font-color);
-    border-style: solid;
-    border-width: 10;
 }
 
 text{
