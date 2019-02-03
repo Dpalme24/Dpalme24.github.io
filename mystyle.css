@@ -24,23 +24,17 @@
 }
 
 :root {
-    --font-color: #151515;
-    --background-color: #5ffbac;
-    --font-background: #e9e9e9;
-    --accent-color: #f05b30;
+    --font-color: #F9FFFF;
+    --background-color: #FB1C6C;
+    --accent-color: #BBBBBB;
 }
 
 body{
-    margin: 3%;
-    padding: 0;
-    background: #019D5B; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #F7C600 50%, #ffffff 50%, #ffffff 54%, #019D5B 54%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,#F7C600 50%, #ffffff 50%, #ffffff 54%, #019D5B 54%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,#F7C600 50%,#ffffff 50%, #ffffff 54%, #019D5B 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7C600', endColorstr='#019D5B',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    color: var(--font-color);
+  margin: 3%;
+  padding: 0;
+  background: var(--background-color);
+  color: var(--accent-color);
 }
-
 p{
     font-size: 30px;
     text-transform: capitalize;
@@ -146,50 +140,4 @@ input[type=text] {
     line-height: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
-}
-
-.titulo {
-  z-index: 2;
-  font-size: 50px;
-  font-family: Times New Roman, serif;
-  text-align: center;
-  width:100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  animation: Motion 15s linear 0s infinite;
-}
-
-.circle{
-  z-index: -1;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(10deg);
-  overflow: hidden;
-  
-  &__shadow{
-    z-index: 1;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #aaa3;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -50%) rotate(30deg);
-  }
-}
-
-@keyframes Motion{
-  0% {
-        transform: translateX(-400px) translateY(-40px);
-    }
-    100% {
-        transform: translateX(400px);
-    }
 }
