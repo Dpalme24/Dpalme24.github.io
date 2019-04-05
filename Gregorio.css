@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral:700');
+
 body{
     background-color: #17181c;
     color: #E29173;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Spectral', 'Times New Roman', Times, serif;
     text-align: center;
     margin: auto;
+    height: 100%;
 }
 
 h1{
     width: 80%;
     font-size: 5em;
-    font-weight: 900;
+    font-weight: bolder;
     margin: auto;
 }
 
