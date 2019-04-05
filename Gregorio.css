@@ -35,8 +35,11 @@ a{
     text-decoration: none;
     color: #E29173;
     font-size: 2em;
-    background-color: #222;
-    border-radius: 3%;
     padding: .4em;
     font-weight: bold;
+    background-color: #222;
+}
+
+.divisor{
+    margin-bottom: 15%;
 }
