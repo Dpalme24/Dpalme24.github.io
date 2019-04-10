@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral:700');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
 
 body{
     background-color: #f7f9f8;
     color: #000769;
-    font-family: 'Spectral', 'Times New Roman', Times, serif;
+    font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     margin: auto;
     height: 100%;
