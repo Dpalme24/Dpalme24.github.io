@@ -26,8 +26,9 @@ h3{
 }
 
 table{
-    font-size: 3em;
+    font-size: 6vw;
     margin: auto;
+    width: 100%;
     font-weight: 400;
 }
 
