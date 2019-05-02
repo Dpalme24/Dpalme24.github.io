@@ -13,19 +13,9 @@
   src: url(HelveticaLt.ttf);
 }
 
-@font-face {
-  font-family: "Bunya-Light";
-  src: url(Bunya-Light_PERSONAL.ttf);
-}
-
-@font-face {
-  font-family: "Bunya-Bold";
-  src: url(Bunya-Bold_PERSONAL.ttf);
-}
-
 :root {
     --font-color: #FFFFFF;
-    --background-color: #80B6BF;
+    --background-color: #222;
     --accent-color: #fa5b8f;
 }
 
@@ -34,52 +24,17 @@ body{
   padding: 0;
   background: var(--background-color);
   color: var(--font-color);
+	font-family: 'Didhot', 'Times New Roman', serif;
 }
 
 .titulo {
   z-index: 2;
   font-size: 50px;
-  font-family: Times New Roman, serif;
   text-align: center;
   width:100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  animation: Motion 15s linear 0s infinite;
-}
-
-.circle{
-  z-index: -1;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%) rotate(10deg);
-  overflow: hidden;
-  
-  &__shadow{
-    z-index: 1;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #aaa3;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -50%) rotate(30deg);
-  }
-}
-
-@keyframes Motion{
-  0% {
-        transform: translateX(-400px) translateY(-40px);
-    }
-    100% {
-        transform: translateX(400px);
-    }
 }
 
 p{
@@ -93,7 +48,6 @@ p{
 }
 
 h1 {
-    font-family: Bunya-Light;
     font-weight: 900;
     font-size: 60;
     text-align: center;
@@ -123,14 +77,15 @@ a{
 }
 
 .center {
-    font-family: Helvetica-Regular;
     font-weight: bold;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
+		text-align-last: justify;
+		letter-spacing: auto;
     width: 80%;
-    padding: 30;
+    padding: 1rem;
 }
 
 text{
@@ -142,7 +97,7 @@ button {
     color: var(--font-color);
     background: var(--background-color-color);
     border: var(--font-color);
-    font-family: Helvetica-Light;
+    font-family: 'Helvetica-Light';
     border-style: solid;
     padding: 20px;
     border-width: 1px;
@@ -158,7 +113,7 @@ input[type=number] {
     color: var(--font-color);
     background: var(--background-color-color);
     border: var(--font-color);
-    font-family: Helvetica-Light;
+    font-family: 'Helvetica-Light';
     border-style: solid;
     padding: 10px;
     border-width: 1px;
@@ -174,7 +129,7 @@ input[type=text] {
     color: var(--font-color);
     background: var(--accent-color);
     border: var(--background-color);
-    font-family: Helvetica-Light;
+    font-family: 'Helvetica-Light';
     border-style: solid;
     padding: 20px;
     border-width: 1px;
