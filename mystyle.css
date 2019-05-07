@@ -33,7 +33,7 @@ p{
     text-transform: capitalize;
     background-color: var(--background-color);
     border: var(--font-color);
-    border-width: 10px;
+    border-width: 2px;
     border-style: solid;
     margin: 0;
 }
