@@ -18,6 +18,13 @@ body{
   font-weight: 100;
 }
 
+textarea{
+  background: var(--background-color);
+  color: var(--font-color);
+  font-family: 'Didhot', 'Times New Roman', serif;
+  font-weight: 100;
+}
+
 .titulo {
   z-index: 2;
   font-size: 50px;
