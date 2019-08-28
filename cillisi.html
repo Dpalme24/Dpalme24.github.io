@@ -12,25 +12,27 @@
 	
 	<script>
 	function myFunction() {
-	    var str = document.getElementById("demo").value; 
-	    var res = str.replace(/a/g, "i");
+	    var res = document.getElementById("demo").value;
+		res = res.replace(/a/g, "i");
 	    res = res.replace(/e/g, "i");
 	    res = res.replace(/o/g, "i");
 	    res = res.replace(/u/g, "i");
-		res = res.replace(/ó/g, "i");
-		res = res.replace(/í/g, "i");
-		res = res.replace(/á/g, "i");
-		res = res.replace(/ú/g, "i");
-		res = res.replace(/é/g, "i");
-		res = res.replace(/A/g, "I");
+	    res = res.replace(/ó/g, "i");
+	    res = res.replace(/í/g, "i");
+        res = res.replace(/á/g, "i");
+	    res = res.replace(/ú/g, "i");
+	    res = res.replace(/é/g, "i");
+	    res = res.replace(/A/g, "I");
 	    res = res.replace(/E/g, "I");
 	    res = res.replace(/O/g, "I");
 	    res = res.replace(/U/g, "I");
-		res = res.replace(/Ó/g, "I");
-		res = res.replace(/Í/g, "I");
-		res = res.replace(/Á/g, "I");
-		res = res.replace(/Ú/g, "I");
-		res = res.replace(/É/g, "I");
+	    res = res.replace(/Ó/g, "I");
+	    res = res.replace(/Í/g, "I");
+	    res = res.replace(/Á/g, "I");
+	    res = res.replace(/Ú/g, "I");
+	    res = res.replace(/É/g, "I");
+	    res = res.replace(/II/g, "I");
+		res = res.replace(/ii/g, "i");
 	    document.getElementById("demo").value = res;
 	}
 	</script>
