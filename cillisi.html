@@ -1,31 +1,29 @@
-<html><head><style id="stndz-style"></style>
-<title>Cillisi</title>
-<link href="mystyle.css" rel="stylesheet" type="text/css">
-<link rel="SHORTCUT ICON" href="Dico.png"> 
-</head>
+<html>
+	<head>
+		<style id="stndz-style">div[class*="item-container-obpd"], a[data-redirect*="paid.outbrain.com"], a[onmousedown*="paid.outbrain.com"] { display: none !important; } a div[class*="item-container-ad"] { height: 0px !important; overflow: hidden !important; position: absolute !important; } div[data-item-syndicated="true"] { display: none !important; } .grv_is_sponsored { display: none !important; } .zergnet-widget-related { display: none !important; } </style>
+		<title>Cillisi</title>
+		<link href="mystyle.css" rel="stylesheet" type="text/css">
+		<link rel="SHORTCUT ICON" href="Dico.png"> 
+	</head>
 <body>
    <br>
-   <h1>DPALME</h1>
-   <br>
-   <input id="demo" type="text">
-
-	<button onclick="myFunction()">Convertir</button>
-
-	<h3><a href="index.html">Go Back </a></h3>
-<script>
-function myFunction() {
-    var str = document.getElementById("demo").value; 
-    var res = str.replace(/a/g, "i");
-    res = res.replace(/e/g, "i");
-    res = res.replace(/o/g, "i");
-    res = res.replace(/u/g, "i");
-	res = res.replace(/ó/g, "i");
-	res = res.replace(/í/g, "i");
-	res = res.replace(/á/g, "i");
-	res = res.replace(/ú/g, "i");
-	res = res.replace(/é/g, "i");
-    document.getElementById("demo").value = res;
-}
-</script>
-
-</body></html>
+   <input id="demo" type="text" style="width:100%;height:50%;margin-bottom:5%;">
+   <button onclick="myFunction()">Convertir<br></button>
+	
+	<script>
+	function myFunction() {
+	    var str = document.getElementById("demo").value; 
+	    var res = str.replace(/a/g, "i");
+	    res = res.replace(/e/g, "i");
+	    res = res.replace(/o/g, "i");
+	    res = res.replace(/u/g, "i");
+		res = res.replace(/ó/g, "i");
+		res = res.replace(/í/g, "i");
+		res = res.replace(/á/g, "i");
+		res = res.replace(/ú/g, "i");
+		res = res.replace(/é/g, "i");
+	    document.getElementById("demo").value = res;
+	}
+	</script>
+  </body>
+</html>
