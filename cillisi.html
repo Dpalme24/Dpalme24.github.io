@@ -11,6 +11,7 @@
    <button onclick="myFunction()">Convertir<br></button>
 	
 	<script>
+	
 	function myFunction() {
 	    var str = document.getElementById("demo").value; 
 	    var res = str.replace(/a/g, "i");
@@ -31,8 +32,11 @@
 		res = res.replace(/Á/g, "I");
 		res = res.replace(/Ú/g, "I");
 		res = res.replace(/É/g, "I");
-	    document.getElementById("demo").value = res;
+	    res = res.replace(/II/g, "I");	    
+		res = res.replace(/ii/g, "i");
+		document.getElementById("demo").value = res;
 	}
+	
 	</script>
   </body>
 </html>
