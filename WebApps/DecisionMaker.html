@@ -1,0 +1,68 @@
+<HTML>
+<head>
+<title>Decision Maker</title>
+<link href="css/mystyle.css" rel="stylesheet" type="text/css">
+<link rel="SHORTCUT ICON" HREF="Dico.png"> 
+</head>
+<body>
+  <br>
+  <h1>DPALME</h1>
+  <br>
+  <br><button onclick="GetGood()">2 Opciones</button><br>
+  <br><button onclick="GetRight()">3 Opciones</button><br>
+  <br><button onclick="GetRekt()">4 Opciones</button><br>
+  <br><button onclick="GetFuk()">5 Opciones</button><br>
+<script>
+  var One;
+  var Two;
+  var Three;
+  var Four;
+  var Five;
+  var n;
+  
+function GetGood() {
+var One = prompt("Opción 1");
+var Two = prompt("Opción 2");
+n = Math.random();
+if(n <= 0.5){confirm("Escojo" + " " + One);}
+else{confirm("Escojo" + " " + Two);}
+}
+
+function GetRight() {
+One = prompt("Opción 1");
+Two = prompt("Opción 2");
+Three = prompt("Opción 3");
+n = Math.random();
+if(n <= 0.33){confirm("Escojo" + " " + One);}
+if(n >= 0.66) {confirm("Escojo" + " " + Two);}
+else {confirm("Escojo" + " " + Three);}
+}
+  
+ function GetRekt() {
+One = prompt("Opción 1");
+Two = prompt("Opción 2");
+Three = prompt("Opción 3");
+Four = prompt("Opción 4");
+n = Math.random();
+if(n <= 0.25){confirm("Escojo" + " " + One);}
+if(n <= 0.50 && (n >= 0.26)) {confirm("Escojo" + " " + Two);}
+if(n >= 0.75 && (n >= 0.51)) {confirm("Escojo" + " " + Three);}
+if(n >= 0.76) { confirm("Escojo" + " " + Four);}
+ }
+
+ function GetFuk() {
+One = prompt("Opción 1");
+Two = prompt("Opción 2");
+Three = prompt("Opción 3");
+Four = prompt("Opción 4");
+Five = prompt("Opción 5");
+n = Math.random();
+if(n <= 0.20){confirm("Escojo" + " " + One);}
+if(n <= 0.40 && (n >= 0.21)) {confirm("Escojo" + " " + Two);}
+if(n <= 0.60 && (n >= 0.41)) {confirm("Escojo" + " " + Three)}
+if(n <= 0.80 && (n >= 0.61)) {confirm("Escojo" + " " + Four)}
+if(n >= 0.80) { confirm("Escojo" + " " + Five);}
+ }
+</script>
+</body>
+</HTML>

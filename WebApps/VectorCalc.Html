@@ -1,0 +1,41 @@
+<HTML>
+	<head>
+		<title>Vector Calculator</title>
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+		<link rel="SHORTCUT ICON" HREF="Dico.png" />
+	</head>
+	<body>
+		<br />
+		<h1>DPALME</h1>
+		<br />
+		<br /><button onclick="VectorCalc()">Calculate</button><br />
+		<script>
+			function VectorCalc() {
+				var num = parseInt(prompt('Number of vectors'));
+				var x = 0;
+				var y = 0;
+				while (num > 0) {
+					var force = prompt('Vector Force');
+					var angle = prompt('Vector Angle');
+					angle = (Math.PI / 180) * angle;
+					x += force * Math.cos(angle);
+					y += force * Math.sin(angle);
+					num += -1;
+				}
+				var Fr = y * y + x * x;
+				Fr = Math.sqrt(Fr);
+				var theta = (180 / Math.PI) * Math.atan(y / x);
+
+				//Confirm Result
+				confirm('Final Force: ' + Fr);
+				if (x == 0) {
+					confirm('Final Angle: 0');
+				} else {
+					confirm('Final Angle: ' + theta);
+				}
+				console.log('X: ' + x);
+				console.log('Y: ' + y);
+			}
+		</script>
+	</body>
+</HTML>
