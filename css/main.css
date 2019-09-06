@@ -91,11 +91,6 @@ h1 {
 	margin-bottom: 0.2vw;
 }
 
-a:hover {
-	animation: Fade 0.2s linear forwards;
-	padding: 0.7rem 0;
-}
-
 /* Selection */
 
 ::-moz-selection {
@@ -152,18 +147,22 @@ a:hover {
 	font-size: 3vw;
 }
 
+.navBar_2 a:hover {
+	animation: Fade 0.2s linear forwards;
+	padding: 0.7rem 0;
+}
+
 .Logo {
 	color: var(--font);
 	font-size: 3vw;
 	position: absolute;
 	left: 3vw;
+	top: 3vw;
 }
 
 .Logo:hover {
 	position: absolute;
 	left: 3vw;
-	color: var(--accent);
-	outline: 0.1rem solid var(--accent);
 }
 
 .text-primary {
@@ -173,23 +172,22 @@ a:hover {
 
 a.selected {
 	color: var(--accent);
-	padding: 0.7rem;
+	padding: 0.7rem 0;
 	box-shadow: 0 0.1rem #ff5733;
 }
 
 .separation {
-	margin-bottom: 20vw;
+	margin-bottom: 10vw;
 }
 
-.register {
+.cv {
 	padding: 1rem;
 	outline: 0.1rem solid var(--accent);
 }
 
-.register:hover {
-	padding: 1rem;
+.cv:hover {
+	padding: 1rem 1rem !important;
 	color: var(--accent);
-	outline: 0.1rem solid var(--accent);
 }
 
 .itinerario {
