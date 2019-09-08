@@ -25,7 +25,7 @@
 
 body {
 	background-color: var(--background);
-	width: 100%;
+	width: 100vw;
 	margin: 0;
 	padding: 0;
 	background-image: linear-gradient(180deg, var(--bg), var(--bg2), var(--bg3), var(--bg4), var(--bg5));
@@ -191,29 +191,42 @@ a.selected {
 
 .itinerario {
 	display: flex;
-	margin: auto;
-	width: 100%;
-	flex-direction: column;
+	margin: 0;
+	margin-top: 2vw;
+	width: 80%;
+	flex-flow: column wrap;
 	padding: 1rem 1rem;
+	align-items: center;
+	justify-items: center;
 }
 
 .item-itinerario {
 	display: flex;
 	margin: auto;
-	flex-direction: row;
+	flex-flow: row wrap;
 	padding: 1rem 1rem;
-	box-shadow: 0 0.1rem var(--bg3);
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+}
+
+.skills {
+	border: solid;
+	border-color: var(--accent2);
+	margin: 0;
+	margin-right: 5px;
+	padding: 1rem;
 }
 
 .footer {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left: 0;
+	margin-right: 0;
 	width: 100%;
-	height: 20vw;
-	padding: 10vw 0;
+	height: 10vw;
+	padding: 5vw 0;
 	text-align: left;
 	justify-content: center;
 	align-items: center;
